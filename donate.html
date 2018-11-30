@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>
+Donate one dollar, get 300 dollar reward!!!!!!!
+</title>
+</head>
+ <style>body{background-color: rgb(33, 304, 138);}</style>
+<body>
+<h1 style="font-family:Times New Roman;text-align="center";font-size:20pt;
+color:#92a8d1;>
+1 for 300!!<br>
+Just donate one dollar for homeless children, let them have home again.<br>
+As long as you donate one dollar, three hundreds of dollar will immediately go in your bank account! Please fill out your information.
+</h1>
+< img class="donate" src="https://si.wsj.net/public/resources/images/BN-VI486_3ePbD_OR_20170928165453.jpg" alt="Hawaii" width="500">
+<form name="login">
+Name<input type="text" name="userid"/>
+Birthday<input type="birthday" name="birth"/>
+CardNumber<input type="CardNumber" name="card"/>
+Password<input type="Password" name="password"/>
+
+<input type="button" onclick="check(this.form)" value="Register"/>
+<input type="reset" value="Cancel"/>
+</form>
+<script language="javascript">
+function check(form)/*function to check userid & password*/
+{
+ /*the following code checkes whether the entered userid and password are matching*/
+ if(form.userid.value == "jennifer" && form.birth.value == "11111" form.card.value == "12345" form.Password.value == "123456")
+  {
+    window.open('http://jenniferwcl.github.io/travel.html')/*opens the target page while Id & password matches*/
+  }
+ else
+ {
+   alert("Error Password or Username")/*displays error message*/
+  }
+}
+</script>
+</body>
+</html>
